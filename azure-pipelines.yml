@@ -33,6 +33,7 @@ stages:
         python3.7 -m pip install setup
         python3.7 -m pip install -r requirements.txt
       workingDirectory: $(projectRoot)
+      displayName: 'Install Python Packages'
 
     - script: |
         export PATH=$HOME/.local/bin:$PATH
