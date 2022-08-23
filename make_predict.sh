@@ -25,4 +25,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://shobuz-app.azurewebsites.net:$PORT/predict
+     -X POST http://localhost:$PORT/predict
